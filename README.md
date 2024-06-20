@@ -56,7 +56,7 @@ Before you begin, ensure you have the following installed on your local machine:
 
 4. **Run the Application:**
    - Press `F5` or click the `Start` button in the toolbar.
-   - 
+   
 
     ![Screenshot 2024-06-20 152315](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/4181f0c9-4f13-4f25-9e9c-97d23c877e4c)
 
