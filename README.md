@@ -1,7 +1,11 @@
+Here's the updated `README.md` file including the section on searching submissions:
+
+---
+
 # Windows Forms Application Project
 
 ## Overview
-This Windows Forms application . The application provides features such as [view subsmssions edit subsmissions create submissions ]. This project is a great example of a C# Windows Forms application and demonstrates [visual basic and .net framework].
+This Windows Forms application allows users to view, edit, and create submissions. The project demonstrates the use of Visual Basic and .NET Framework in a Windows Forms application.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -10,6 +14,7 @@ This Windows Forms application . The application provides features such as [view
 - [Running the Application](#running-the-application)
 - [Viewing Submissions](#viewing-submissions)
 - [Submitting Submissions](#submitting-submissions)
+- [Searching Submissions](#searching-submissions)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -20,15 +25,7 @@ Before you begin, ensure you have the following installed on your local machine:
 
 ## Downloading the Project
 1. **Visit the GitHub Repository:**
-   - Navigate to the https://github.com/VPAVAN11/Slidely_task2_Frontend.git
-
-2. **Download the Code:**
-   - Click the green `Code` button.
-   - Select `Download ZIP` and extract it to your desired location.
-   - Alternatively, clone the repository using Git:
-     ```bash
-     # Windows Forms Application Project
-
+   - Navigate to the [GitHub Repository](https://github.com/VPAVAN11/Slidely_task2_Frontend.git).
 
 2. **Download the Code:**
    - Click the green `Code` button.
@@ -37,7 +34,6 @@ Before you begin, ensure you have the following installed on your local machine:
      ```bash
      git clone https://github.com/VPAVAN11/Slidely_task2_Frontend.git
      ```
-     Replace https://github.com/VPAVAN11/Slidely_task2_Frontend.git with the actual URL of the repository.
 
 ## Running the Application
 1. **Open the Project in Visual Studio:**
@@ -67,9 +63,6 @@ Before you begin, ensure you have the following installed on your local machine:
    
    ![Screenshot 2024-06-20 120451](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/f7468924-c582-410d-9a85-e24531f69d58)
 
-
-
-
 ## Viewing Submissions
 To view submissions within the application:
 1. Open the application.
@@ -80,7 +73,6 @@ To view submissions within the application:
 
 ![Screenshot 2024-06-20 120513](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/2ae27950-cc3c-45ef-ab9c-ea8d1d07454f)
 
-
 ## Submitting Submissions
 To submit a new entry:
 1. Open the application.
@@ -90,12 +82,39 @@ To submit a new entry:
    
 ![Screenshot 2024-06-20 120536](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/1a5a2b79-19c8-4ac2-a0e0-038d4528a547)
 
+## Searching Submissions
+To search for submissions by email:
+1. Open the application.
+2. Enter the email address in the search box.
+3. Click the `SEARCH (CTRL + S)` button or use the shortcut `Ctrl + S`.
+
+![Screenshot 2024-06-20 120536](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/1a5a2b79-19c8-4ac2-a0e0-038d4528a547)
+
+4. The results will be displayed in the list view below the search box, formatted as follows:
+   - **ID:** <submission_id>
+   - **Name:** <submission_name>
+   - **Email:** <submission_email>
+   - **Phone:** <submission_phone>
+   - **GitHub:** <submission_github_link>
+   - **Stopwatch Time:** <submission_stopwatch_time>
+   
 ## Contributing
 We welcome contributions to the project! To contribute:
 1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes and commit them (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-branch
+   ```
 5. Open a Pull Request.
 
 
+
+---
