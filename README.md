@@ -62,7 +62,9 @@ Before you begin, ensure you have the following installed on your local machine:
    - Press `F5` or click the `Start` button in the toolbar.
 
    ![Screenshot 2024-06-20 120431](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/09cc8908-7c16-4917-af66-da70cec5da55)
+   
    ![Screenshot 2024-06-20 120441](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/9a19c624-e1e6-426f-aeac-385187fdc771)
+   
    ![Screenshot 2024-06-20 120451](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/f7468924-c582-410d-9a85-e24531f69d58)
 
 
@@ -75,6 +77,7 @@ To view submissions within the application:
 3. Select the desired submission to view details.
 
 ![Screenshot 2024-06-20 120504](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/524be663-7eea-4503-8360-f14020ef5ab8)
+
 ![Screenshot 2024-06-20 120513](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/2ae27950-cc3c-45ef-ab9c-ea8d1d07454f)
 
 
