@@ -29,6 +29,7 @@ Partial Class Form1
         MenuStrip1 = New MenuStrip()
         ABOUTToolStripMenuItem = New ToolStripMenuItem()
         HELPToolStripMenuItem = New ToolStripMenuItem()
+        Button3 = New RoundedButton()
         MenuStrip1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -74,10 +75,11 @@ Partial Class Form1
         ' 
         Label2.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
         Label2.AutoSize = True
-        Label2.ForeColor = Color.Red
+        Label2.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
+        Label2.ForeColor = Color.FromArgb(CByte(192), CByte(0), CByte(192))
         Label2.Location = New Point(104, 95)
         Label2.Name = "Label2"
-        Label2.Size = New Size(542, 20)
+        Label2.Size = New Size(576, 20)
         Label2.TabIndex = 5
         Label2.Text = "Welcome to Slidely Form App, where your submissions are managed effortlessly!"
         Label2.TextAlign = ContentAlignment.MiddleCenter
@@ -105,12 +107,27 @@ Partial Class Form1
         HELPToolStripMenuItem.Size = New Size(57, 24)
         HELPToolStripMenuItem.Text = "HELP"
         ' 
+        ' Button3
+        ' 
+        Button3.Anchor = AnchorStyles.Top Or AnchorStyles.Left Or AnchorStyles.Right
+        Button3.BackColor = Color.PaleGreen
+        Button3.BorderRadius = 20
+        Button3.FlatAppearance.BorderColor = Color.Black
+        Button3.FlatAppearance.BorderSize = 2
+        Button3.Location = New Point(24, 330)
+        Button3.Name = "Button3"
+        Button3.Size = New Size(711, 62)
+        Button3.TabIndex = 7
+        Button3.Text = "SEARCH SUBMISSIONS  (CTRL + S)"
+        Button3.UseVisualStyleBackColor = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
-        ClientSize = New Size(757, 357)
+        ClientSize = New Size(757, 429)
+        Controls.Add(Button3)
         Controls.Add(Label2)
         Controls.Add(Label1)
         Controls.Add(Button2)
@@ -142,4 +159,5 @@ Partial Class Form1
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ABOUTToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents HELPToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Button3 As RoundedButton
 End Class
