@@ -56,10 +56,14 @@ Before you begin, ensure you have the following installed on your local machine:
 
 4. **Run the Application:**
    - Press `F5` or click the `Start` button in the toolbar.
+   - 
 
-   ![Screenshot 2024-06-20 120431](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/09cc8908-7c16-4917-af66-da70cec5da55)
+    ![Screenshot 2024-06-20 152315](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/4181f0c9-4f13-4f25-9e9c-97d23c877e4c)
+
    
    ![Screenshot 2024-06-20 120441](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/9a19c624-e1e6-426f-aeac-385187fdc771)
+
+   
    
    ![Screenshot 2024-06-20 120451](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/f7468924-c582-410d-9a85-e24531f69d58)
 
@@ -88,7 +92,9 @@ To search for submissions by email:
 2. Enter the email address in the search box.
 3. Click the `SEARCH (CTRL + S)` button or use the shortcut `Ctrl + S`.
 
-![Screenshot 2024-06-20 120536](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/1a5a2b79-19c8-4ac2-a0e0-038d4528a547)
+
+![Screenshot 2024-06-20 152528](https://github.com/VPAVAN11/Slidely_task2_Frontend/assets/103198643/5f32da49-cdbb-4b5c-8556-8ff716ebcf31)
+
 
 4. The results will be displayed in the list view below the search box, formatted as follows:
    - **ID:** <submission_id>
