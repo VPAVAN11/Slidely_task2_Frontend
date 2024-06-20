@@ -1,5 +1,3 @@
-Here's the updated `README.md` file including the section on searching submissions:
-
 ---
 
 # Windows Forms Application Project
@@ -120,7 +118,6 @@ We welcome contributions to the project! To contribute:
    git push origin feature-branch
    ```
 5. Open a Pull Request.
-
 
 
 ---
